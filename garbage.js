@@ -25,6 +25,7 @@ class Garbage
 
 			push()
 			translate(garbagepos.x, garbagepos.y);
+			rotate(this.body.angle)
 			//strokeWeight(4);
 			fill("red")
 			imageMode(CENTER);
